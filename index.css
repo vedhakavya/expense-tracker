@@ -1,0 +1,55 @@
+.div1{
+    background-color: palegoldenrod;
+    color:white;
+    padding:10px;
+    position:absolute;
+    top:30px;
+    left:30px;
+
+}
+
+.div2{
+ 
+    background-color: blue;
+    padding:10px; 
+}
+
+.container{
+    margin-top: 100px;
+    background-color: lightsteelblue;
+    padding: 20px;
+   
+    position:relative;
+}
+
+header{
+    margin-top: 100px;
+    background-color: bisque;
+    padding: 20px;
+    position:fixed;
+        width:100%;
+   z-index:1;
+
+}
+
+.scroll{
+    background-color: #333;
+    height: 1000px;
+}
+  <header>  LOGO  </header>
+    
+     
+ <div class="container">
+    <div class="div1">
+        <p>Div 1</p>
+    </div>
+    <div class="div2">
+        <p>Div 2</p>
+    </div>
+</div>
+
+<div class="scroll">
+    <p>scrollable</p>
+</div>
+
+</body>
